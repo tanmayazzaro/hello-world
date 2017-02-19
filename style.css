@@ -1,0 +1,59 @@
+@import url("reset.css");
+
+body{
+  font-family: Helvetica;
+}
+
+*{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.stacks{
+  border: 1px solid black;
+  position: relative;
+}
+
+.ned{
+  border: 1px solid red;
+  margin-left: 10px;
+  position: absolute;
+  left: 0;
+}
+
+.smail{
+  border: 1px solid blue;
+  margin-left: 10px;
+  position: absolute;
+  left: 550px;
+}
+
+.jayadev{
+  border: 1px solid green;
+  margin-left: 10px;
+  position: absolute;
+  right: 0;
+}
+
+.quote{
+  display: inline-block;
+  width: 100px;
+  height: 350px;
+  border: 1px solid black;
+  overflow: auto;
+}
+
+.smail .quote{
+  width: 0px;
+}
+
+.jayadev .quote{
+  width: 0px;
+}
+
+.imgHolder{
+  display: inline-block;
+  width: 150px;
+  height: 350px;
+  border: 1px solid black;
+}
